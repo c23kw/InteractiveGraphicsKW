@@ -5,18 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Interactive Graphics</title>
-    <style>
-	    body {background-color: powderblue;}
+
+    <style type="text/css">
+	    body {background-color: black;}
+	    
+      .classlogo {
+        width: 50px;
+        height: 50px;
+      }
+
+      #chair {
+        padding-left: 1%;
+      }
+
+      #game {
+        color: white;
+        position: absolute;
+          top: 800px;
+          transition: 1s;
+        }
+        #game:hover{
+            transform: scale (1.1);
+        }
+#karissa {
+color: white;
+
+
+      }
+
+      .p{
+        color: white;
+      }
+
+      #text1{
+        position: absolute;
+        left: 525px;
+        top: 783px;
+        color: white;
+        size: 50px;
+      }
+
+      #chairdes{
+        position: absolute;
+        top: 1200px;
+      }
+
+      #p5{
+        color: white;
+        position: absolute;
+        top: 1185px;
+        left: 370px;
+      }
+
+      #logo{
+        position: absolute;
+        top: 1570px;
+        left: -20px;
+      }
+
+      #logosum{
+        color: white;
+        position: absolute;
+        top: 1578px;
+        left: 745px;
+      }
+	    
 	  </style>
   </head>
   <body>
 	<script src="index.js"></script>
     
-    <h1> Welcome to Karissa's Interactive Graphics Page </h1>
+
     
-       <a href="classlogo.html">My Class Logo in Basic</a>
-	  
-	 <img src="Class Logo.png" alt="ClassLogo"> 
+<center><a href="#logo"><img src="Class Logo.png" alt="classlogo" width="800" /></a></center>
+
+<center><h1 id="karissa"> By Karissa Wadia </h1></center>
+    <a href="#game"><img src="BASIC game.png" alt="basicgame" width="500" /> </a>
+    <a href="#chairdes"> <img src="chair.png" alt="chair" width="347" id="chair"/></a>
+
+
+
+   <div id="game">
+<img src="BASIC game.png" alt="basicgame" width="500" />
+   </div>
+   <p id=text1>My Basic Animation: My plan for this project was to make a maze game, as I thought it would be a doable, yet interesting game to create in BASIC. I utilized progams for snake games to figure out the code to make the player move based on arrow key inputs, and then added the extra layer of what happend when you hit a "wall".</p>
+
+   <div id="chairdes">
+     <img src="chair.png" alt="chair" width="347" id="chair"/>
+   </div>
+   <p id=p5>3D Object in P5: Creating a chair was inspired by Sarah's desire to make a table, so I thought we would make a set! This was relatively straightforward. As you can see, I just used different dimensions of cubes, or rectangular prisms, put together. </p>
+
+   <div id="logo">
+     <img src="Class Logo.png" alt="classlogo" width="800" />
+   </div>
+   <p id="logosum">My Interactive Graphics Logo: For this project, I wanted to do something that would capture the aesthetics of a graphics class, which is why I tried to create the font that I used for the word "graphics". I also thought it kind of emulates the visuals of a light up neon sign, which I thought was cool.</p>
     
   </body>
 </html>
